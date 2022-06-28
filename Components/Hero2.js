@@ -4,8 +4,8 @@ import HeroBanner from '../public/hero2Banner.svg'
 
 function Hero2() {
   return (
-    <div className='grid grid-cols-3 gap-4 w-full px-24 content-center '>
-      <div className='border col-span-2'>
+    <div className='grid grid-cols-2 gap-4 w-full px-24 content-center '>
+      <div className=' col-span-1'>
         {' '}
         <Image
           src={'/Hero2Banner.svg'}
@@ -15,7 +15,7 @@ function Hero2() {
           className=''
         />
       </div>
-      <div className=' border'>
+      <div className=' my-auto'>
         <div>
           <h3>Why Join Proddly</h3>
           <ul className='list-disc'>

@@ -15,7 +15,7 @@ function Hero() {
           sales by 99.99%
         </h5>
         <button
-          className=' rounded-full bg-slate-500'
+          className=' rounded-full'
           style={{ backgroundColor: '#00BAF7', width: '263px', height: '70px' }}
         >
           Join Proddly

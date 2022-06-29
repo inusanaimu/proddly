@@ -8,7 +8,7 @@ function Nav() {
       <div className='grid grid-cols-2 content-center my-8 mx-28'>
         {' '}
         <div className=''>
-          <Image src={'/Logo.svg'} alt='logo' height={40} width={138} />
+          <Image src={'/Logo.svg'} alt='logo' height={53} width={173} />
         </div>
         <div>
           <ul className=' flex flex-row text-sm'>

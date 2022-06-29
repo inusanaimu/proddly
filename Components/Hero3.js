@@ -41,8 +41,8 @@ function Hero3() {
       </div>
       <div className='text-center my-4 '>
         <button
-          className=' border-2 rounded-full text-white'
-          style={{ backgroundColor: '#00BAF7', width: '263px', height: '70px' }}
+          className='py-5 px-14 border-2 rounded-full text-white'
+          style={{ backgroundColor: '#00BAF7' }}
         >
           Join Proddly
         </button>

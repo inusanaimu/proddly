@@ -1,6 +1,6 @@
 import Image from 'next/dist/client/image'
 import Logo from '../public/Logo.svg'
-import Facebook from '../public/asserts/Facebook.svg'
+import Facebook from '../public/Facebook.svg'
 
 const Top = () => {
   return (
@@ -18,7 +18,7 @@ const Top = () => {
           backgroundColor: '#00baf7',
         }}
       >
-        Yearly
+        Join Proddly
       </button>
     </div>
   )
@@ -39,8 +39,8 @@ const Bottom = () => {
           <Image
             src={'/Facebook.svg'}
             alt='Facebook'
-            height={57}
-            width={173}
+            height={24}
+            width={24}
             className=' w-full'
           />
         </div>
@@ -49,13 +49,44 @@ const Bottom = () => {
       <div className=''>
         {' '}
         <h3>Resources</h3>
-        <a href='#'>About Proddly</a>
-        <a href='#'>Privacy Policy</a>
-        <a href='#'>Proddly Retailer Policy</a>
-        <a href='#'>Terms and Conditions</a>
+        <div>
+          <a href='#'>About Proddly</a>
+        </div>
+        <div>
+          <a href='#'>Privacy Policy</a>
+        </div>
+        <div>
+          <a href='#'>Proddly Retailer Policy</a>
+        </div>
+        <div>
+          <a href='#'>Terms and Conditions</a>
+        </div>
       </div>
-      <div className=''>3</div>
-      <div className=''>4</div>
+      <div className=''>
+        <h3>Learning & Support</h3>
+        <div>
+          <a href='#'>FAQs</a>
+        </div>
+        <div>
+          <a href='#'>Help Center</a>
+        </div>
+        <div>
+          <a href='#'>Contact</a>
+        </div>
+      </div>
+      <div className=''>
+        {' '}
+        <h3>Feedback</h3>
+        <div>
+          <a href='#'>Request a feature</a>
+        </div>
+        <div>
+          <a href='#'>Submit a feedback/review</a>
+        </div>
+        <div>
+          <a href='#'>Rate Proddly</a>
+        </div>
+      </div>
     </div>
   )
 }

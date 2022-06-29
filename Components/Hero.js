@@ -4,10 +4,7 @@ import lgBanner from '../public/lgBanner.svg'
 
 function Hero() {
   return (
-    <div
-      className=' w-full gap-0 grid grid-cols-3 content-center'
-      style={{ height: '867px' }}
-    >
+    <div className=' w-full gap-0 grid grid-cols-3 content-center' style={{}}>
       <div className='pl-28 my-auto'>
         <h1 className='mt-4 text-4xl '>Boost sales on Proddly</h1>
         <h5>
@@ -15,7 +12,7 @@ function Hero() {
           sales by 99.99%
         </h5>
         <button
-          className='py-5 px-14 rounded-full'
+          className='py-5 px-14 rounded-full text-white'
           style={{ backgroundColor: '#00BAF7' }}
         >
           Join Proddly
@@ -24,6 +21,7 @@ function Hero() {
       <div className=' col-span-2 '>
         {' '}
         <Image
+          // layout='fill'
           src={'/lgBanner.svg'}
           alt='Banner'
           height={867}

@@ -2,6 +2,7 @@ import Image from 'next/dist/client/image'
 
 import lgBanner from '../public/lgBanner.svg'
 import smBanner from '../public/smBanner.svg'
+import arrow from '../public/arrow-right-small.svg'
 
 const Banner = () => {
   return (
@@ -16,13 +17,13 @@ const Banner = () => {
           className=' w-full'
         />
       </div>
-      <div className=' md:hidden'>
+      <div className=' md:hidden relative -top-24'>
         <Image
           // layout='fill'
           src={'/smBanner.svg'}
           alt='Banner'
           height={353}
-          width={385}
+          width={353}
           className=' w-full'
         />
       </div>
@@ -36,17 +37,25 @@ function Hero() {
       className=' w-full gap-0 grid grid-flow-cols-1 md:grid-cols-3 content-center'
       style={{}}
     >
-      <div className='md:pl-28 md:my-auto'>
-        <h1 className='mt-4 text-4xl '>Boost sales on Proddly</h1>
-        <h5>
+      <div className=' p-4 md:pl-28 md:my-auto '>
+        <h1 className=' text-4xl font-bold mb-2 '>Boost sales on Proddly.</h1>
+        <h5 className='my-6'>
           Get your inventory infront of millions of shoppers and increase your
           sales by 99.99%
         </h5>
         <button
-          className='py-5 px-14 rounded-full text-white'
+          className='md:py-5 md:px-14 py-2 px-6 rounded-full text-white'
           style={{ backgroundColor: '#00BAF7' }}
         >
-          Join Proddly
+          Join Proddly{' '}
+          <Image
+            // layout='fill'
+            src={'/arrow.svg'}
+            alt='Arrow'
+            height={25}
+            width={25}
+            className=' w-full text-white'
+          />
         </button>
       </div>
       <div className=' col-span-2 '>

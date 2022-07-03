@@ -6,7 +6,7 @@ const Modal = () => {
           className=' grid bg-white opacity-70  '
           style={{ borderRadius: '60px' }}
         >
-          <div className=' m-auto  p-14 text-center'>
+          <div className=' m-auto p-14 text-center'>
             <p className='mb-16'>
               Proddly is magic. Our walk-in sales have improved immersely and we
               are getting more traffic from our social media platforms like
@@ -19,7 +19,7 @@ const Modal = () => {
           </div>
         </div>
         <div className=' grid bg-white' style={{ borderRadius: '60px' }}>
-          <div className=' m-auto  p-14 text-center'>
+          <div className=' m-auto p-14 text-center'>
             <p className='mb-16'>
               Proddly is magic. Our walk-in sales have improved immersely and we
               are getting more traffic from our social media platforms like

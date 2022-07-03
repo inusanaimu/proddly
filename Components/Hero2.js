@@ -1,15 +1,15 @@
 import Image from 'next/dist/client/image'
 
-import HeroBanner from '../public/hero2Banner.svg'
+import Hero2Banner from '../public/hero2Banner.svg'
 
-const ImageComp = () => {
+const ImageComponent = () => {
   return (
     <>
       <div className=' w-full md:hidden flex order-last md:order-none'>
         {' '}
         <Image
           src={'/Hero2Banner.svg'}
-          alt='Banner'
+          alt='Hero2Banner'
           height={867}
           width={867}
           className=''
@@ -19,7 +19,7 @@ const ImageComp = () => {
         {' '}
         <Image
           src={'/Hero2Banner.svg'}
-          alt='Banner'
+          alt='Hero2Banner'
           height={330}
           width={318}
           className=''
@@ -32,7 +32,7 @@ const ImageComp = () => {
 function Hero2() {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:px-24 p-4 content-center '>
-      <ImageComp />
+      <ImageComponent />
       <div className=' my-auto leading-10'>
         <div className='  '>
           <h3 className=' text-xl text-bold mb-6'>Why Join Proddly</h3>

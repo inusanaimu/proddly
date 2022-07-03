@@ -35,7 +35,7 @@ const Bottom = () => {
         {' '}
         <Image
           src={'/Logo.svg'}
-          alt='Banner'
+          alt='Logo'
           height={57}
           width={173}
           className=' w-full'
@@ -44,7 +44,7 @@ const Bottom = () => {
           <span className=' pr-5'>
             <Image
               src={'/Instagram.svg'}
-              alt='Facebook'
+              alt='Instagram'
               height={24}
               width={24}
             />
@@ -58,12 +58,12 @@ const Bottom = () => {
             />
           </span>
           <span className=' pr-5'>
-            <Image src={'/Twitter.svg'} alt='Facebook' height={24} width={24} />
+            <Image src={'/Twitter.svg'} alt='Twitter' height={24} width={24} />
           </span>
           <span className=' pr-5'>
             <Image
               src={'/LinkedIn.svg'}
-              alt='Facebook'
+              alt='LinkedIn'
               height={24}
               width={24}
             />

@@ -101,6 +101,7 @@ function Hero4() {
               <button
                 className='md:py-5 md:px-14 py-2 px-6 md:m-8 m-4 border-2 rounded-full text-white'
                 style={{
+                  borderColor: '#00baf7',
                   backgroundColor: '#00BAF7',
                 }}
               >

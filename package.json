@@ -11,13 +11,28 @@
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "next": "12.1.6",
+    "npm": "^8.13.2",
     "postcss": "^8.4.14",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "run": "^1.4.0",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
     "tailwindcss": "^3.1.4"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inusanaimu/proddly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inusanaimu/proddly/issues"
+  },
+  "homepage": "https://github.com/inusanaimu/proddly#readme"
 }

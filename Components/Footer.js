@@ -30,8 +30,8 @@ const Top = () => {
 }
 const Bottom = () => {
   return (
-    <div className=' grid grid-cols-1 md:grid-cols-5 md:gap-4 w-full p-16 leading-10 '>
-      <div className=' md:col-span-2 bg-white'>
+    <div className=' grid grid-cols-1 md:grid-cols-5 md:gap-4 w-full md:p-16 p-10 leading-10 '>
+      <div className=' md:order-first order-last md:col-span-2 bg-white'>
         {' '}
         <Image
           src={'/Logo.svg'}

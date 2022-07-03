@@ -2,7 +2,6 @@ import Image from 'next/dist/client/image'
 
 import lgBanner from '../public/lgBanner.svg'
 import smBanner from '../public/smBanner.svg'
-import arrow from '../public/arrow-right-small.svg'
 
 const Banner = () => {
   return (
@@ -47,15 +46,7 @@ function Hero() {
           className='md:py-5 md:px-14 py-2 px-6 rounded-full text-white'
           style={{ backgroundColor: '#00BAF7' }}
         >
-          Join Proddly{' '}
-          <Image
-            // layout='fill'
-            src={'/arrow.svg'}
-            alt='Arrow'
-            height={25}
-            width={25}
-            className=' w-full text-white'
-          />
+          Join Proddly
         </button>
       </div>
       <div className=' col-span-2 '>

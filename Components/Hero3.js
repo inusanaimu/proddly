@@ -1,7 +1,7 @@
 const Modal = () => {
   return (
     <>
-      <div className=' hidden md:grid grid-cols-2 gap-11 my-14'>
+      <div className=' text-lg hidden md:grid grid-cols-2 gap-11 my-14'>
         <div
           className=' grid bg-white opacity-70  '
           style={{ width: '600px', height: '400px', borderRadius: '70px' }}
@@ -12,7 +12,10 @@ const Modal = () => {
               are getting more traffic from our social media platforms like
               never before
             </p>
-            <h5> -Skyline Stores, John Apata </h5>
+            <h5 className=' font-bold text-lg'>
+              {' '}
+              -Skyline Stores, John Apata{' '}
+            </h5>
           </div>
         </div>
         <div
@@ -25,7 +28,10 @@ const Modal = () => {
               are getting more traffic from our social media platforms like
               never before
             </p>
-            <h5> -Skyline Stores, John Apata </h5>
+            <h5 className=' font-bold text-lg'>
+              {' '}
+              -Skyline Stores, John Apata{' '}
+            </h5>
           </div>
         </div>
       </div>
@@ -55,7 +61,7 @@ const Modal = () => {
 function Hero3() {
   return (
     <div className='p-4 md:p-20 ' style={{ backgroundColor: '#00baf7' }}>
-      <div className=' text-center text-white leading-7 '>
+      <div className=' text-center text-white text-lg leading-7 '>
         {' '}
         <h4>See why customers love Proddly</h4>
         <h3 className=' font-bold '>

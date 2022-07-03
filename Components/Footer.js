@@ -1,18 +1,23 @@
 import Image from 'next/dist/client/image'
 import Logo from '../public/Logo.svg'
+import Instagram from '../public/Instagram.svg'
 import Facebook from '../public/Facebook.svg'
+import Twitter from '../public/Twitter.svg'
+import LinkedIn from '../public/LinkedIn.svg'
 
 const Top = () => {
   return (
     <div
-      className=' text-white w-full py-12 text-center '
+      className=' text-white w-full py-6 md:py-12 text-center '
       style={{ backgroundColor: '#00baf7' }}
     >
       {' '}
-      <h1>Get found locally</h1>
-      <h6>Setup your Proddly page in less than 10 minutes</h6>
+      <h1 className=' font-bold text-2xl md:text-4xl '>Get found locally</h1>
+      <h6 className=' text-sm '>
+        Setup your Proddly page in less than 10 minutes
+      </h6>
       <button
-        className=' text-white py-5 px-14 m-8 border-2 rounded-full '
+        className=' py-2 px-6 md:m-8 m-4 text-white Md:py-5 md:px-14 border-2 rounded-full '
         style={{
           borderColor: '#ffffff',
           backgroundColor: '#00baf7',
@@ -25,8 +30,8 @@ const Top = () => {
 }
 const Bottom = () => {
   return (
-    <div className=' grid grid-cols-5 gap-4 w-full p-16 '>
-      <div className='col-span-2 bg-white'>
+    <div className=' grid grid-cols-1 md:grid-cols-5 md:gap-4 w-full p-16 leading-10 '>
+      <div className=' md:col-span-2 bg-white'>
         {' '}
         <Image
           src={'/Logo.svg'}
@@ -35,20 +40,40 @@ const Bottom = () => {
           width={173}
           className=' w-full'
         />
-        <div className=' w-full  '>
-          <Image
-            src={'/Facebook.svg'}
-            alt='Facebook'
-            height={24}
-            width={24}
-            className=' w-full'
-          />
+        <div className=' w-full '>
+          <span className=' pr-5'>
+            <Image
+              src={'/Instagram.svg'}
+              alt='Facebook'
+              height={24}
+              width={24}
+            />
+          </span>
+          <span className=' pr-5'>
+            <Image
+              src={'/Facebook.svg'}
+              alt='Facebook'
+              height={24}
+              width={24}
+            />
+          </span>
+          <span className=' pr-5'>
+            <Image src={'/Twitter.svg'} alt='Facebook' height={24} width={24} />
+          </span>
+          <span className=' pr-5'>
+            <Image
+              src={'/LinkedIn.svg'}
+              alt='Facebook'
+              height={24}
+              width={24}
+            />
+          </span>
         </div>
         <p>@2022 Proddly LLC, All Rights Reserved</p>
       </div>
       <div className=''>
         {' '}
-        <h3>Resources</h3>
+        <h3 className=' font-bold text-xl mb-6 '>Resources</h3>
         <div>
           <a href='#'>About Proddly</a>
         </div>
@@ -62,8 +87,8 @@ const Bottom = () => {
           <a href='#'>Terms and Conditions</a>
         </div>
       </div>
-      <div className=''>
-        <h3>Learning & Support</h3>
+      <div>
+        <h3 className=' font-bold text-xl mb-6 '>Learning & Support</h3>
         <div>
           <a href='#'>FAQs</a>
         </div>
@@ -76,7 +101,7 @@ const Bottom = () => {
       </div>
       <div className=''>
         {' '}
-        <h3>Feedback</h3>
+        <h3 className=' font-bold text-xl mb-6 '>Feedback</h3>
         <div>
           <a href='#'>Request a feature</a>
         </div>

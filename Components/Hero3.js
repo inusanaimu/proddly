@@ -1,10 +1,10 @@
 const Modal = () => {
   return (
     <>
-      <div className=' text-lg hidden md:grid grid-cols-2 gap-11 my-14'>
+      <div className=' font-bold leading-8 text-lg hidden md:grid grid-cols-2 gap-11 my-14'>
         <div
           className=' grid bg-white opacity-70  '
-          style={{ width: '600px', height: '400px', borderRadius: '70px' }}
+          style={{ borderRadius: '60px' }}
         >
           <div className=' m-auto  p-14 text-center'>
             <p className='mb-16'>
@@ -18,10 +18,7 @@ const Modal = () => {
             </h5>
           </div>
         </div>
-        <div
-          className=' grid bg-white'
-          style={{ width: '600px', height: '400px', borderRadius: '70px' }}
-        >
+        <div className=' grid bg-white' style={{ borderRadius: '60px' }}>
           <div className=' m-auto  p-14 text-center'>
             <p className='mb-16'>
               Proddly is magic. Our walk-in sales have improved immersely and we

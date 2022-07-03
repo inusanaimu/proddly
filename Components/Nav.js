@@ -36,7 +36,7 @@ const NavLinks = () => {
           <a href='#'>Pricing</a>
         </li>
       </ul>
-      <div className='md:hidden'>
+      <div className='md:hidden text-right'>
         <Image src={'/NavBtn.svg'} alt='logo' height={30} width={30} />
       </div>
     </>
@@ -46,7 +46,7 @@ const NavLinks = () => {
 function Nav() {
   return (
     <nav className=' w-full md:z-10 md:absolute top-0'>
-      <div className='grid grid-cols-2 content-center my-2 mx-4 md:my-8 md:mx-28'>
+      <div className='grid grid-cols-2 md:content-center  my-2 mx-4 md:my-8 md:mx-28'>
         {' '}
         <LogoComp />
         <div>

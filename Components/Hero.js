@@ -7,24 +7,10 @@ const Banner = () => {
   return (
     <>
       <div className='hidden md:flex  '>
-        <Image
-          // layout='fill'
-          src={'/lgBanner.svg'}
-          alt='lgBanner'
-          height={867}
-          width={867}
-          className=' w-full'
-        />
+        <Image src={'/lgBanner.svg'} alt='lgBanner' height={867} width={867} />
       </div>
       <div className='text-right block md:hidden relative -top-24'>
-        <Image
-          // layout='fill'
-          src={'/smBanner.svg'}
-          alt='smBanner'
-          height={353}
-          width={353}
-          className=''
-        />
+        <Image src={'/smBanner.svg'} alt='smBanner' height={353} width={353} />
       </div>
     </>
   )

@@ -12,7 +12,6 @@ const ImageComponent = () => {
           alt='Hero2Banner'
           height={867}
           width={867}
-          className=''
         />
       </div>
       <div className=' w-full hidden md:block order-last md:order-none'>
@@ -22,7 +21,6 @@ const ImageComponent = () => {
           alt='Hero2Banner'
           height={330}
           width={318}
-          className=''
         />
       </div>
     </>
@@ -31,7 +29,7 @@ const ImageComponent = () => {
 
 function Hero2() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:px-24 p-4 content-center '>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:px-16 p-4 content-center '>
       <ImageComponent />
       <div className=' my-auto leading-10'>
         <div className='  '>

@@ -1,11 +1,12 @@
 import Image from 'next/dist/client/image'
+
 import Logo from '../public/Logo.svg'
 import Instagram from '../public/Instagram.svg'
 import Facebook from '../public/Facebook.svg'
 import Twitter from '../public/Twitter.svg'
 import LinkedIn from '../public/LinkedIn.svg'
 
-const Top = () => {
+const TopFooter = () => {
   return (
     <div
       className=' text-white w-full py-6 md:py-12 text-center '
@@ -28,7 +29,7 @@ const Top = () => {
     </div>
   )
 }
-const Bottom = () => {
+const BottomFooter = () => {
   return (
     <div className=' grid grid-cols-1 md:grid-cols-5 md:gap-4 w-full md:p-16 p-10 leading-10 '>
       <div className=' md:order-first order-last md:col-span-2 bg-white'>
@@ -41,35 +42,37 @@ const Bottom = () => {
           className=' w-full'
         />
         <div className=' w-full '>
-          <span className=' pr-5'>
+          <a href='#' className=' mr-5'>
             <Image
               src={'/Instagram.svg'}
               alt='Instagram'
               height={24}
               width={24}
             />
-          </span>
-          <span className=' pr-5'>
+          </a>
+          <a href='#' className=' mr-5'>
             <Image
               src={'/Facebook.svg'}
               alt='Facebook'
               height={24}
               width={24}
             />
-          </span>
-          <span className=' pr-5'>
+          </a>
+          <a href='#' className=' mr-5'>
             <Image src={'/Twitter.svg'} alt='Twitter' height={24} width={24} />
-          </span>
-          <span className=' pr-5'>
+          </a>
+          <a href='#' className=' mr-5'>
             <Image
               src={'/LinkedIn.svg'}
               alt='LinkedIn'
               height={24}
               width={24}
             />
-          </span>
+          </a>
         </div>
-        <p>@2022 Proddly LLC, All Rights Reserved</p>
+        <p>
+          <a href='#'>@2022 Proddly LLC, All Rights Reserved</a>
+        </p>
       </div>
       <div className=''>
         {' '}
@@ -119,8 +122,8 @@ const Bottom = () => {
 function Footer() {
   return (
     <footer>
-      <Top />
-      <Bottom />
+      <TopFooter />
+      <BottomFooter />
     </footer>
   )
 }

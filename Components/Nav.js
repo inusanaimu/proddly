@@ -20,19 +20,19 @@ const NavLinks = () => {
   return (
     <>
       <ul className='flex-row text-sm hidden md:flex'>
-        <li className='mr-12'>
+        <li className='mt-8'>
           <a href='#'>Why join Proddly</a>
         </li>
-        <li className='mr-12'>
+        <li className='mt-8'>
           <a href='#'>Features</a>
         </li>
-        <li className='mr-12'>
+        <li className='mt-8'>
           <a href='#'>Testmonial</a>
         </li>
-        <li className='mr-12'>
+        <li className='mt-8'>
           <a href='#'>How to join</a>
         </li>
-        <li className='mr-12'>
+        <li className='mt-8'>
           <a href='#'>Pricing</a>
         </li>
       </ul>
@@ -55,7 +55,7 @@ const NavModal = () => {
     <>
       <div
         id='navModal'
-        className=' hidden absolute bg-white z-20 top-0 opacity-95 w-full h-full my-2 mx-4'
+        className=' hidden absolute bg-white z-20 top-0 opacity-95 w-full h-full py-2 px-5'
       >
         <div className='grid grid-cols-2 '>
           <div className=' '>
@@ -66,27 +66,27 @@ const NavModal = () => {
               onClick={() => {
                 handleClick('navModal')
               }}
-              className=' text-white text-center rounded-md font-bold px-2 py-1'
+              className=' text-white text-xl text-center rounded-lg  px-3 py-1'
               style={{ backgroundColor: '#00BAF7' }}
             >
-              X
+              x
             </span>
           </div>
         </div>
-        <ul className='flex-row text-sm md:flex'>
-          <li className='mr-12'>
-            <a href='#'>Why join Proddly</a>
+        <ul className='flex-row ml-4 mt-5 leading-10 font-bold md:flex'>
+          <li className='mt-8'>
+            <a href='#'>Why join Proddly?</a>
           </li>
-          <li className='mr-12'>
+          <li className='mt-8'>
             <a href='#'>Features</a>
           </li>
-          <li className='mr-12'>
+          <li className='mt-8'>
             <a href='#'>Testmonial</a>
           </li>
-          <li className='mr-12'>
+          <li className='mt-8'>
             <a href='#'>How to join</a>
           </li>
-          <li className='mr-12'>
+          <li className='mt-8'>
             <a href='#'>Pricing</a>
           </li>
         </ul>

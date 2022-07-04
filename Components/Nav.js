@@ -19,20 +19,20 @@ const LogoComponent = () => {
 const NavLinks = () => {
   return (
     <>
-      <ul className='flex-row text-sm hidden md:flex'>
-        <li className='mt-8'>
-          <a href='#'>Why join Proddly</a>
+      <ul className=' flex-row text-sm font-bold hidden md:flex'>
+        <li className='mr-12'>
+          <a href='#'>Why join Proddly?</a>
         </li>
-        <li className='mt-8'>
+        <li className='mr-12'>
           <a href='#'>Features</a>
         </li>
-        <li className='mt-8'>
+        <li className='mr-12'>
           <a href='#'>Testmonial</a>
         </li>
-        <li className='mt-8'>
+        <li className='mr-12'>
           <a href='#'>How to join</a>
         </li>
-        <li className='mt-8'>
+        <li className='mr-12'>
           <a href='#'>Pricing</a>
         </li>
       </ul>
@@ -105,10 +105,10 @@ function Nav() {
   return (
     <>
       <nav className=' w-full md:z-10 md:absolute top-0'>
-        <div className='grid grid-cols-2 md:content-center  my-2 mx-4 md:my-8 md:mx-28'>
+        <div className='grid grid-cols-2 md:grid-cols-3 md:content-center  my-2 mx-4 md:my-8 md:mx-28'>
           {' '}
           <LogoComponent />
-          <div>
+          <div className=' col-span-2'>
             <NavLinks />
           </div>
         </div>
